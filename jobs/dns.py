@@ -94,7 +94,7 @@ class SyncReverseZones(jobs.Job):
 
     def get_all_entries_from_prefix_and_update_zone(self, prefix):
         self.logger.debug(
-            f"Processing Prefix: {prefix}, Test Mode: {self.run_arpa_test}",
+            f"Processing Prefix: {prefix}",
             extra={"object": prefix},
         )
 
